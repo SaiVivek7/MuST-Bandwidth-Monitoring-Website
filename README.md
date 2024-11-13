@@ -1,4 +1,4 @@
-# MUst
+# MuST
 MU Speed Test - Network Bandwidth Monitoring System
 
 ### prototype of the website.
