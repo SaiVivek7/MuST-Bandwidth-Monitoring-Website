@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./click-homepage.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bellota Text:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT Sans Caption:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Red Hat Mono:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pavanam:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sudo Var:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="click-homepage">
+      <header class="container">
+        <div class="logo1">
+          <h1 class="muspeedtest1">MUSpeedTest</h1>
+        </div>
+        <div class="header">
+          <div class="navigation">
+            <div class="nav13" id="nav1Container1">
+              <div class="home3" id="homeText3">MAP</div>
+              <div class="line-div"></div>
+            </div>
+          </div>
+          <div class="nav14" id="nav1Container2">
+            <div class="home4">results</div>
+            <div class="nav1-child1"></div>
+          </div>
+          <div class="nav1-group">
+            <div class="nav15">
+              <div class="home5">Data</div>
+              <div class="nav1-child2"></div>
+            </div>
+            <div class="nav16" id="nav1Container3">
+              <div class="home6">Campus Analysis</div>
+              <div class="nav1-child3"></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="labels">
+        <div class="content">
+          <div class="network-details">
+            <div class="border" data-scroll-to="border"></div>
+            <div class="metrics">
+              <div class="speed">
+                <div class="labels1">
+                  <div class="jitter-value">
+                    <div class="speed-label">
+                      <div class="upload-mbps">Upload Mbps</div>
+                    </div>
+                    <div class="mbps">58.34 Mbps</div>
+                  </div>
+                  <div class="loss-value">
+                    <div class="download-mbps-wrapper">
+                      <div class="download-mbps">Download Mbps</div>
+                    </div>
+                    <div class="mbps1">94.4 Mbps</div>
+                  </div>
+                </div>
+                <div class="i-p-address">
+                  <div class="ip-address">IP Address : 122.184.65.228</div>
+                </div>
+              </div>
+            </div>
+            <div class="network">
+              <div class="ping-metric">
+                <div class="ping">Ping</div>
+                <div class="ping-value">
+                  <div class="ms">46ms</div>
+                </div>
+              </div>
+              <div class="bandwidth-content">
+                <div class="jitter">Jitter</div>
+                <div class="ms1">30ms</div>
+              </div>
+              <div class="loss-metric">
+                <div class="ping1">
+                  <div class="loss">Loss</div>
+                  <div class="become-an-expert">20%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-container-wrapper">
+            <div class="button-container">
+              <div class="bandwidth-header" data-scroll-to="background">
+                <div class="background"></div>
+                <div class="share"></div>
+                <div class="go-again">go Again</div>
+              </div>
+              <div class="share1" id="shareContainer">
+                <div class="share-button">
+                  <div class="share2">share</div>
+                </div>
+                <img
+                  class="vector-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/sh.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="value-label" data-scroll-to="campus-analysis">
+        <div class="download-value-label">
+          <div class="speed-labels">
+            <div class="summary">
+              <div class="title">
+                <img
+                  class="bandwidth-analysis-icon"
+                  loading="lazy"
+                  alt=""
+                  src="./public/bdw.jpeg"
+                />
+
+                <h2 class="campus-day-bandwidth">
+                  Campus Day Bandwidth Analysis
+                </h2>
+              </div>
+            </div>
+            <div class="today-the-20st">
+              today, the 20st of May, 2024. The analysis of the campus bandwidth
+              strength is down below.
+            </div>
+          </div>
+          <div class="nav-home">
+            <img
+              class="screenshot-2024-05-20-at-1239"
+              loading="lazy"
+              alt=""
+              src="./public/screenshot-20240520-at-1239-1@2x.png"
+            />
+          </div>
+        </div>
+      </div>
+      <h2 class="mhu">Mahindra University Network Map</h2>
+      <img src="./public/map.jpg" class="map" data-scroll-to="map-image" />
+    </div>
+
+    <script>
+      var nav1Container1 = document.getElementById("nav1Container1");
+      if (nav1Container1) {
+        nav1Container1.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='background']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var nav1Container2 = document.getElementById("nav1Container2");
+      if (nav1Container2) {
+        nav1Container2.addEventListener("click", function () {
+          var anchor = document.querySelector("[data-scroll-to='border']");
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var nav1Container3 = document.getElementById("nav1Container3");
+      if (nav1Container3) {
+        nav1Container3.addEventListener("click", function () {
+          var anchor = document.querySelector(
+            "[data-scroll-to='campus-analysis']"
+          );
+          if (anchor) {
+            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
+          }
+        });
+      }
+
+      var muspeedtestIcon = document.querySelector(".muspeedtest1");
+      if (muspeedtestIcon) {
+        muspeedtestIcon.addEventListener("click", function () {
+          window.location.href = "index.html";
+        });
+      }
+
+      var shareDiv = document.querySelector(".share2");
+      if (shareDiv) {
+        shareDiv.addEventListener("click", function () {
+          // Open a new window with the share options
+          var popupWidth = 410; // Increased width
+          var popupHeight = 310; // Increased height
+          var left = (window.innerWidth - popupWidth) / 2;
+          var top = (window.innerHeight - popupHeight) / 2;
+          var popupOptions =
+            "width=" +
+            popupWidth +
+            ",height=" +
+            popupHeight +
+            ",top=" +
+            top +
+            ",left=" +
+            left;
+          window.open("popup.html", "Share Popup", popupOptions);
+        });
+      }
+
+      var mapLink = document.getElementById("homeText3");
+      if (mapLink) {
+        mapLink.addEventListener("click", function () {
+          setTimeout(function () {
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth",
+            });
+          }, 100);
+        });
+      }
+    </script>
+  </body>
+</html>
